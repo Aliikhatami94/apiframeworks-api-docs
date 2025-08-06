@@ -1,6 +1,7 @@
-export * from './components/ApiFrameworksDoc';
-export * from './components/ApiDocsSidebar';
-export * from './components/ComponentsSection';
-export * from './components/EndpointSection';
-export * from './components/HttpMethodBadge';
-export * from './components/ui/button';
+export {ApiFrameworksDoc} from '@/components/ApiFrameworksDoc';
+export {ApiDocsSidebar} from '@/components/ApiDocsSidebar';
+export {ComponentsSection} from '@/components/ComponentsSection';
+export {EndpointSection} from '@/components/EndpointSection';
+export {HttpMethodBadge} from '@/components/HttpMethodBadge';
+export {Button} from '@/components/ui/button';
+
