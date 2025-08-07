@@ -1,6 +1,6 @@
 {
   "name": "apiframeworks-api-docs",
-  "version": "1.1.5",
+  "version": "1.1.7",
   "description": "A reusable React component library for OpenAPI documentation UI.",
   "author": "Ali Khatami <aliikhatami94@gmail.com>",
   "license": "MIT",
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "tsc -p tsconfig.build.json",
+    "build": "npx tsc -p tsconfig.build.json",
     "start": "next start",
     "lint": "next lint"
   },
@@ -48,8 +48,8 @@
     "@stoplight/spectral-core": "^1.20.0",
     "@stoplight/spectral-parsers": "^1.0.5",
     "@stoplight/spectral-rulesets": "^1.22.0",
-    "clsx": "^2.1.1",
     "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "js-yaml": "^4.1.0",
     "lucide-react": "^0.525.0",
     "postcss": "^8.5.6",
