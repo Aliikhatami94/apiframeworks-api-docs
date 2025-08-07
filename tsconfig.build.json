@@ -1,15 +1,16 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "noEmit": false,
-    "emitDeclarationOnly": false,
+    "jsx": "react-jsx",
     "outDir": "dist",
     "rootDir": "src",
     "declaration": true,
     "declarationDir": "dist",
-    "jsx": "react-jsx",
     "module": "ESNext",
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "emitDeclarationOnly": false,
+    "noEmit": false
   },
   "include": ["src"]
 }
