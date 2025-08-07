@@ -164,9 +164,6 @@
     body {
         @apply bg-background text-foreground;
     }
-    h1[class*="text-"] {
-        font-size: unset;
-    }
 }
 
 /* Ensure tooltips are always above expanded Monaco editor */
