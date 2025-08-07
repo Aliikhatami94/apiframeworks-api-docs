@@ -1,6 +1,6 @@
 {
   "name": "apiframeworks-api-docs",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "A reusable React component library for OpenAPI documentation UI.",
   "author": "Ali Khatami <aliikhatami94@gmail.com>",
   "license": "MIT",
@@ -48,7 +48,6 @@
     "@stoplight/spectral-core": "^1.20.0",
     "@stoplight/spectral-parsers": "^1.0.5",
     "@stoplight/spectral-rulesets": "^1.22.0",
-    "apiframeworks-api-docs": "file:apiframeworks-api-docs-1.1.8.tgz",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "js-yaml": "^4.1.0",
