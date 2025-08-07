@@ -16,6 +16,38 @@ npm install apiframeworks-api-docs
 
 > **Note:** `react`, `next`, `clsx`, `js-yaml`, `next-themes`, `@radix-ui/*`, and `shadcn/ui` are required as peer dependencies. Install them in your project if not already present.
 
+## Tailwind CSS Setup
+
+This package requires Tailwind CSS for styling. If you don't already have it set up, follow these steps:
+
+### 1. Install Tailwind CSS
+
+```sh
+npm install tailwindcss @tailwindcss/postcss postcss
+```
+
+### 2. Configure PostCSS Plugins
+
+Create a `postcss.config.mjs` file in the root of your project and add the `@tailwindcss/postcss` plugin:
+
+```js
+// postcss.config.mjs
+const config = {
+  plugins: {
+    "@tailwindcss/postcss": {},
+  },
+};
+export default config;
+```
+
+### 3. Import Tailwind CSS
+
+Add an `@import` to your `./src/styles/globals.css` (or `./src/app/globals.css` if using app directory) to import Tailwind CSS:
+
+```css
+@import "tailwindcss";
+```
+
 ## Usage
 
 ```tsx
